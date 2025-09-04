@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="sus.css">
+    <head>
+        <title> SUS - Sistema Único de Saúde </title>
+        <img src="SUS_apenas_preenchimento.png">
+    </head>
+    <body>
+        <br>
+    <div>
+        <h3> Selecione o sintoma: </h3>
+         <p id="resultado"></p>
+         <select id="sintomas">
+            <option value=""> --- </option>
+            <option value="Tosse"> Tosse </option>
+            <option value="Pneumonia"> Pneumonia </option>
+            <option value="Catarro"> Catarro </option>
+            <option value="Febre"> Febre </option>
+            <option value="Caganeira"> Caganeira </option>
+            <option value="Dor de barriga"> Dor de barriga </option>
+            <option value="TDAH"> TDAH </option>
+            <option value="Autismo"> Autismo </option>
+         </select>
+     <script>
+       const select = document.getElementById("sintomas");
+       const resultado = document.getElementById("resultado");
+       select.addEventListener("change", () => {
+       if (select.value === "") {
+        resultado.textContent = "Hello, World!";
+     } else {
+        resultado.textContent = "Desculpe, já existe um usuário com esse sintoma!";
+      }
+     });
+     </script>
+  </div>
+  <button class="jumpscare" ><a href="jumpscare.html"> Clique aqui! </button>
+  <button class="doacao" ><a href="doacoes.html"> Faça uma doação </button>
+    </body>
+</html>
