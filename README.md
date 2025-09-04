@@ -13,6 +13,12 @@ Este site é uma **paródia criativa e bem-humorada** do site oficial do SUS. É
 
 ---
 
+## Um pequeno detalhe
+
+Este site foi pensado e programado para ser acessado apenas por computadores, notebooks, etc. Caso você acesse pelo celular, o design não vai ser responsivo e vai ficar todo desfigurado. Futuramente, caso seja necessário, vamos ajeitar para que todos os tipos de telas possam acessar esse projeto.
+
+---
+
 ##  Funcionalidades
 
 - Logo e título inspirados visualmente no SUS.
